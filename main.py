@@ -16,7 +16,7 @@ r = praw.Reddit('app to post top of r/news')
 already_posted = []
 
 def write_tweet(post):
-	return post.title + " djflksdjfl " + post.url
+	return post.title + " // Read at " + post.url
 
 def post_relevant_posts(posts):
 	for post in posts:
